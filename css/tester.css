@@ -1,0 +1,67 @@
+.menu_table{    
+position: sticky; 
+top: 0; 
+background-color: #6495ED; 
+padding:10px 0px 10px 0px; 
+color:white; 
+margin: 0 auto; 
+overflow: hidden; 
+width: 100%;
+}
+.menu_column{
+float:left;	
+}
+.menu_column_dropdown{
+display: inline-block;
+float:left;
+position:relative;
+}
+.menu_column_dropdown_contents{
+display:none;
+position:absolute;
+background-color: #6495ED;
+}
+.menu_column_dropdown:hover .menu_column_dropdown_contents{
+display:block;
+position:fixed;
+margin-top:33px;
+}
+.menu_link{ 
+float: left; 
+color: white; 
+padding: 5px 16px; 
+text-decoration: none; 
+font-size: 20px; 
+}
+.menu_link_dropdown{
+float: left; 
+color: white; 
+padding: 5px 16px; 
+text-decoration: none; 
+font-size: 20px; 
+} 
+.menu_list{
+list-style-type: none;	
+margin-left:-40px;
+}
+.menu_column_search{
+
+}
+.search{
+background-color: #ffffff;	
+color: #000000;
+border: none;
+font-size: 17px;	
+border-radius:5px;	
+}
+.search_btn{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+}
+.menu_column_log{
+float:right;
+}

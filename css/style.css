@@ -1,0 +1,885 @@
+.header_section{
+position: solid;	
+}
+.head1{ 
+font-size:40px; 
+color:#6495ED; 
+font-weight:bold;
+margin-left:10px;  
+} 
+.head2{ 
+font-size:17px; 
+margin-left:10px; 
+margin-bottom:15px;
+color: #000000; 
+} 
+body{ 
+margin: 0 auto; 
+background-position:center; 
+background-size: contain;
+height: 100%;
+width: 100%;
+position: solid;
+} 
+.menu_table{    
+position: sticky; 
+top: 0; 
+background-color: #6495ED; 
+padding:10px 0px 10px 0px; 
+color:white; 
+margin: 0 auto; 
+overflow: hidden; 
+width: 100%;
+}
+.menu_column{
+float:left;	
+}
+.menu_column_dropdown{
+display: inline-block;
+float:left;
+position:relative;
+}
+.menu_column_dropdown_contents{
+display:none;
+position:absolute;
+background-color: #6495ED;
+padding-top:0px;
+}
+.menu_column_dropdown:hover .menu_column_dropdown_contents{
+display:block;
+position:fixed;
+margin-top:33px;
+}
+.menu_link{ 
+float: left; 
+color: white; 
+padding: 5px 16px; 
+text-decoration: none; 
+font-size: 20px; 
+}
+.menu_link_dropdown{
+float: left; 
+color: white; 
+padding: 5px 16px; 
+text-decoration: none; 
+font-size: 20px; 
+} 
+.menu_list_dropdown_button{
+color: white;
+background-color:#6495ED;
+border: none; 
+font-size: 18px;
+margin-left:-30px;
+padding:6px;
+}
+.menu_list{
+list-style-type: none;	
+margin-left:-40px;
+}
+.menu_column_search{
+
+}
+.search{
+background-color: #ffffff;	
+color: #000000;
+border: none;
+font-size: 17px;	
+border-radius:5px;	
+}
+.search_btn{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+}
+.menu_column_log{
+float:right;
+} 
+footer{ 
+width: 100%; 
+bottom: 0px; 
+background-color: #696969;  
+position: solid; 
+padding-top:10px; 
+padding-bottom:10px; 
+text-align:center; 
+font-size:17px; 
+font-weight:bold; 
+}
+.footer_table{
+width: 100%;
+color: #ffffff;	
+} 
+
+.footer_table_headers{
+font-size:20px;
+padding:5px 
+}
+.body_sec1_header{
+color: #000000;
+font-size:20px;
+text-align:left;
+}
+.body_sec1{ 
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+position: solid;
+text-align: center;
+background-color: #ffffff;
+} 
+.body_sec1_table{
+width: 100%;
+border: solid;
+border-radius: 5px;
+border-color: #6495ED;
+}
+.body_sec1_table_headers_main{
+color: #6495ED;
+font-size: 30px;
+font-family: Times New Roman;	
+}
+.body_sec1_table_headers{
+color: #696969;	
+}
+.body_sec1_table_headers_left{
+color: #696969;
+}	
+.body_sec2{ 
+margin-bottom: 10px;
+position: solid;
+background-color: #6495ED;
+padding-top:10px;
+}
+.body_sec2_table2{
+width: 100%;
+} 
+.body_sec2_table_headers{	
+font-size:20px;
+color: #ffffff;
+text-decoration: none;
+}
+.body_sec2_table_paragraph{
+color:#000000;
+line-height:1.5;
+word-spacing:1px;
+padding-left:10px;	
+padding-right:10px;
+width:25%;
+text-align:left;
+}
+.read_more{
+color: #ffffff; 
+text-decoration: none;
+}
+.body_sec2_table_headers2{	
+font-size:20px;
+color: #ffffff;
+text-decoration: none;
+}
+.body_sec2_table_paragraph2{
+color:#000000;
+line-height:1.5;
+word-spacing:1px;
+padding-left:5px;	
+padding-right:5px;
+width:15%;
+text-align:center;
+}
+.checkup_link{
+color: #32CD32;
+text-decoration: none;	
+}
+.copyright_table{
+width: 100%;
+margin-top: 20px;
+color: #000000;
+text-align: left;	
+}
+.forgot_password_link{
+color: #00008B;	
+text-decoration: none;	
+}
+.login_signup_link{
+color: 	#228B22;	
+text-decoration: none;	
+}
+.instruction{
+color: #00008B;	
+}
+.bold_instruction{
+font-size:20px;	
+color: #00008B;
+text-decoration: none;	
+}
+.privacy_policy{
+color: #000000;
+text-decoration: none;	
+}
+.appointment_btn{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 19px;
+border-radius:5px;
+}
+.cart_btn{
+background-color: #32CD32;
+color: white;
+text-align: center;
+border: none; 
+font-size: 19px;
+border-radius:5px;
+float: right;
+}
+.formcell{
+border: none;
+font-size:17px;	
+color: #00008B;
+text-decoration: none;
+background-color:#F5F5F5;	
+}
+.formcell2{
+border: none;
+font-size:17px;	
+color: #00008B;
+text-decoration: none;
+background-color:#ffffff;	
+}
+.formcell3{
+border: none;
+font-size:17px;	
+color: #00008B;
+text-decoration: none;
+background-color:#ffffff;
+width:450px;	
+}
+.search{
+background-color: #ffffff;	
+color: #000000;
+border: none;
+font-size: 17px;	
+border-radius:5px;	
+}
+.search_btn{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+}
+.responsive {
+width: 100%;
+height: auto;
+}
+.signup_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding-top:20px;
+padding-left:2px;
+padding-right:2px;
+text-align:center; 
+}
+.signup_table_headers{
+color:#000000;
+line-height:2.5;
+}
+.signup_table_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+}
+.signup_table_input2{
+border-radius:5px;
+font-size:15px;
+padding:0px;
+}
+.signup_table_address_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+width:300px;
+height:50px;
+}
+.signup_button{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+padding:5px;	
+}
+.login_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 20px;
+text-align:center;
+}
+.login_table_headers{
+color:#000000;
+line-height:2.5;
+}
+.login_table_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+}
+.login_button{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+padding:5px;	
+}
+.forgot_password_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 20px;
+text-align:center;
+}
+.forgot_password_table_headers{
+color:#000000;
+line-height:2.5;
+}
+.forgot_password_table_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+}
+.reset_button{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+padding:5px;	
+}
+.send_button{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+padding:5px;	
+}
+.staff_login_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 20px;
+text-align:center;
+}
+.staff_login_table_headers{
+color:#000000;
+line-height:2.5;
+}
+.staff_login_table_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+}
+.contact_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 20px;
+text-align:center;
+}
+.contact_table_headers{
+color:#000000;
+line-height:2.5;
+}
+.contact_table_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+}
+.contact_table_message_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+width:300px;
+height:100px;
+}
+.appointment_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 10px;
+text-align:center;
+}
+.about_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:center;
+}
+.about_table_headers{
+color: #00008B;	
+text-align:center;
+}
+.about_table_headers2{
+color: #00008B;	
+}
+.about_table_headers3{
+color: #2F4F4F;	
+font-size:19px;
+}
+.about_table_paragraphs{
+line-height:2;
+word-spacing:1px;
+}
+.blog_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 10px;
+text-align:center;
+}
+.departments_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.departments_list_form{
+text-align:center;	
+}
+.departments_list_form_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;	
+}
+.departments_table_headers{
+color: #00008B;	
+text-align:center;
+}
+.departments_table_headers2{
+color: #2F4F4F;	
+}
+.departments_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.departments_instruction{
+color: #00008B;	
+text-align:center;
+font-size:22px;
+font-weight:bold;
+}
+.load_page_button{
+background-color: #778899;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+padding:5px;
+}
+.goto_department_btn{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 18px;
+border-radius:5px;
+}
+.doctors_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 10px;
+text-align:center;
+}
+.qualified_doctors_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.qualified_doctors_table_headers{
+color: #00008B;	
+}
+.qualified_doctors_table_headers2{
+color: #2F4F4F;	
+}
+.qualified_doctors_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.see_doctor_btn{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 20px;
+border-radius:5px;
+}
+.policy_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.emergency_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.emergency_table_headers{
+color: #00008B;	
+}
+.emergency_table_headers2{
+color: #00008B;	
+font-size:20px;
+}
+.emergency_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.have_emergency_btn{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 20px;
+border-radius:5px;
+}
+.have_emergency_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 10px;
+text-align:center;
+}
+.have_emergency_table_headers{
+color:#000000;
+line-height:2.5;
+}
+.have_emergency_table_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+}
+.have_emergency_table_message_input{
+border-radius:5px;
+font-size:15px;
+padding:5px;
+width:300px;
+height:100px;
+}
+.emergency_number{
+font-size:20px;
+color: #00008B;	
+}
+.write_below_instruction{
+font-size:20px;	
+color: #00008B;		
+padding-bottom:20px;	
+}
+.checkup_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.checkup_table_headers{
+color: #00008B;	
+text-align:left;
+}
+.checkup_table_headers2{
+color: #00008B;	
+}
+.checkup_table_paragraphs{
+line-height:2;
+word-spacing:1px;
+}
+.pricing_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#DCDCDC;
+border-radius: 5px;
+padding: 10px;
+text-align:center;
+}
+.adminhome_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.adminhome_table_headers{
+color: #00008B;	
+}
+.adminhome_table_headers2{
+color: #2F4F4F;	
+}
+.adminhome_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.viewstaff_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.viewstaff_table_headers{
+color: #00008B;	
+}
+.viewstaff_table_headers2{
+color: #2F4F4F;	
+}
+.viewstaff_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.register_staff_button{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:5px;
+padding:4px;	
+}
+.staff_profile_button{
+background-color: #4682B4;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:0px;
+padding-left:5px;	
+padding-right:5px;
+}
+.staff_profile_button2{
+background-color: #B22222;
+color: white;
+text-align: center;
+border: none; 
+font-size: 17px;
+border-radius:0px;
+padding-left:5px;	
+padding-right:5px;
+}
+.viewdepartments_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.viewdepartments_table_headers{
+color: #00008B;	
+}
+.viewdepartments_table_headers2{
+color: #2F4F4F;	
+}
+.viewdepartments_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.viewreports_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.viewreports_table_headers{
+color: #00008B;	
+}
+.viewreports_table_headers2{
+color: #2F4F4F;	
+}
+.viewreports_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.viewblog_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.viewblog_table_headers{
+color: #00008B;	
+}
+.viewblog_table_headers2{
+color: #2F4F4F;	
+}
+.viewblog_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.traffic_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.traffic_table_headers{
+color: #00008B;	
+}
+.traffic_table_headers2{
+color: #2F4F4F;	
+}
+.traffic_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.patients_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.patients_table_headers{
+color: #00008B;	
+}
+.patients_table_headers2{
+color: #2F4F4F;	
+}
+.patients_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.appointmentrequests_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.appointmentrequests_table_headers{
+color: #00008B;	
+}
+.appointmentrequests_table_headers2{
+color: #2F4F4F;	
+}
+.appointmentrequests_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.emergencyrequests_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.emergencyrequests_table_headers{
+color: #00008B;	
+}
+.emergencyrequests_table_headers2{
+color: #2F4F4F;	
+}
+.emergencyrequests_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.contactrequests_table{
+color: #000000;
+font-size:18px;
+margin-bottom:50px;
+background-color:#F5F5F5;
+border-radius: 5px;
+padding: 10px;
+text-align:left;
+}
+.contactrequests_table_headers{
+color: #00008B;	
+}
+.contactrequests_table_headers2{
+color: #2F4F4F;	
+}
+.contactrequests_table_paragraphs{
+line-height:2;
+word-spacing:1px;	
+}
+.mpesatext{
+color:#008000;	
+}
+.userinfo{
+color:#696969;
+}
+.ordertext{
+color:#008000;	
+}
+.prescription_table{
+text-align:left;	
+}
